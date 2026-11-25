@@ -1,0 +1,28 @@
+name: 機能
+description: 作る機能を1つ書く
+labels: ["機能"]
+body:
+  - type: textarea
+    id: why
+    attributes:
+      label: コンセプトのどの部分を実現するためか
+      description: 02_要件 から一言で
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: やること
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: 完了条件
+      description: どうなったら終わりか。確認方法も書く
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: メモ（Figma の画面、参考リンクなど）

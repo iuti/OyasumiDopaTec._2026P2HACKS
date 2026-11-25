@@ -1,0 +1,20 @@
+name: 不具合
+description: 動かない・おかしいところを書く
+labels: ["不具合"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 起きていること
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 本来どうなるべきか
