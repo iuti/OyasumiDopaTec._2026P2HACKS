@@ -8,4 +8,4 @@
 | troubleshooting.md | ハマったことと解決方法 |
 | decisions/ | 技術的な決定。1件1ファイル |
 
-企画・要件・議事録はここではなく Google ドライブ（P2HACKS2026 フォルダ）に置く。
+AI 向けの作業ルールはリポジトリ直下の `AGENTS.md`。企画・要件・議事録はここではなく Google ドライブ（P2HACKS2026 フォルダ）に置く。
