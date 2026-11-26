@@ -26,6 +26,7 @@ body:
     id: depends
     attributes:
       label: 先に終わっている必要がある Issue
+      description: "Depends on #5 の形で書く。なければ空欄"
       placeholder: "Depends on #"
   - type: textarea
     id: notes
